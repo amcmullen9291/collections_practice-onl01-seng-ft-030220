@@ -19,7 +19,7 @@ def reverse_array(numbers)
 end
 
 def kesha_maker(array)
-    array.collect do{|name|
+    array.collect do|name|
     if i%3==0||i%3==0.66
       name="$"
     end
