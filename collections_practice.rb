@@ -19,5 +19,14 @@ def reverse_array(numbers)
 end
 
 def kesha_maker(array)
-array[3]="$"
+ind=2
+array.each {|word|
+  while ind<word.length
+  word[0]="$"
+    if ind%3==0.66
+      word[ind]="$"
+    end
+  ind+=3
+  end
+}
 end
