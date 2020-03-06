@@ -27,5 +27,5 @@ end
 def find_a(word)
   array.each.select {|word|
   word[0]="$a"
-
+}
 end
