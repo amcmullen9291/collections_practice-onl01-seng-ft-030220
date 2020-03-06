@@ -35,7 +35,7 @@ end
 def add_s(array)
 i=0
   while i<array.length
-    if 1!=2
+    if i!=2
     array.each{|word| word<<"s"}
     end
   i+=1
