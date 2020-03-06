@@ -32,6 +32,6 @@ def sum_array(numbers)
   numbers.inject(:+)
 end
 
-def add_s
-  words.each |word| word<< "s"
+def add_s(array)
+  array.each |word| word<< "s"
 end
