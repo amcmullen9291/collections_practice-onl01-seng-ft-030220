@@ -19,5 +19,9 @@ def reverse_array(numbers)
 end
 
 def kesha_maker(array)
-  
+i+2
+  while i<array.length
+  array[i]= "$"
+  i+=3
+end
 end
