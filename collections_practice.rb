@@ -33,8 +33,6 @@ def sum_array(numbers)
 end
 
 def add_s(array)
-i=0
-  while i<array.length
     array.each{|word| i!=2? word<< "s": word}
   i+=1
   end 
