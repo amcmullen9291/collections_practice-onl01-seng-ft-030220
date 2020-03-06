@@ -26,3 +26,4 @@ end
 
 def find_a(wordchoice)
   wordchoice.select |letter_a|.starts_with? ("a")? 
+end
