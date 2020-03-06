@@ -22,7 +22,7 @@ def kesha_maker(array)
 i=2
   while i<array.length
   string=array.string
-  string[i]= "$"
+  string[3]= "$"
   i+=3
   end
 end
