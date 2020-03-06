@@ -33,5 +33,5 @@ def sum_array(numbers)
 end
 
 def add_s(array)
-  array.each {|word| if word!== "feet" {word<< "s"}}
+  array.each {|word| if word!= "feet" {word<< "s"}}
 end
