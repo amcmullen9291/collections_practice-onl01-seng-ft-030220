@@ -34,5 +34,5 @@ end
 
 def add_s(array)
   array.each{|word| word<< "s"}
-  array[1]= .pop("s")
+  array[1]<< .pop("s")
 end
