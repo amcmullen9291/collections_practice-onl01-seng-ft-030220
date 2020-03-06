@@ -20,7 +20,7 @@ end
 
 def kesha_maker(array)
     array.collect do{|name|
-    if i%3==0||i%3==0.66{
+    if i%3==0||i%3==0.66
       name="$"
     end
     i+=3
