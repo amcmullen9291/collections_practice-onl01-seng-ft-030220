@@ -33,7 +33,5 @@ def sum_array(numbers)
 end
 
 def add_s(array)
-    array.each{|word| i!=2? word<< "s": word}
-  i+=1
-  end 
+  array.each{|word| i!=2? word<< "s": word}
 end
