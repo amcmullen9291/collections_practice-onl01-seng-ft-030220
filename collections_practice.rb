@@ -22,7 +22,7 @@ def kesha_maker(array)
 ind=2
 array.each {|word|
   while ind<word.length
-  word[0]="$"
+  word[2]="$"
     if ind%3==0.66
       word[ind]="$"
     end
