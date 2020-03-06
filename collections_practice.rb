@@ -33,5 +33,14 @@ def sum_array(numbers)
 end
 
 def add_s(array)
-  array.each {|word| word<< "s"}
-end
+i=0
+while i<array.length
+ if 1!=2
+array.each{|word| word<<"s""}
+1+=1
+end i=0
+while i<array.length
+ if 1!=2
+array.each{|word| word<<"s""}
+1+=1
+end end
