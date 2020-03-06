@@ -26,5 +26,5 @@ end
 
 def find_a(array)
 a_words=[]
-  array.collect {a_words<< |word| word.start_with?('a') }
+  array.collect {|word|a_words<< word.start_with?('a') }
 end
