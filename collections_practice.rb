@@ -33,5 +33,5 @@ def sum_array(numbers)
 end
 
 def add_s
-  words.each |word| word << "s"
+  words.each |word| word<< "s"
 end
