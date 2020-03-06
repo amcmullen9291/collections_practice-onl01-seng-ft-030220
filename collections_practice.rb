@@ -33,5 +33,7 @@ def sum_array(numbers)
 end
 
 def add_s(array)
-  array.each{|word| word<< "s"}
+array.delete_at(1)
+ array.each{|word|word<< "s"}
+array.insert(1, 'feet')
 end
