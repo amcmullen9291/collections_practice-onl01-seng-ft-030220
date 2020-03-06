@@ -28,4 +28,6 @@ def find_a(array)
 array.group_by { |w| w[0] }['a']
 end
 
-def sum_array
+def sum_array(numbers)
+  numbers.inject(:+)
+end
