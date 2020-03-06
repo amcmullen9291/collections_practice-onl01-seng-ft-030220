@@ -25,7 +25,6 @@ array.each {|word|
 end
 
 def find_a(array)
-    i=0
 while i<array.length
 array.collect |word|
 word.start_with?("a")
