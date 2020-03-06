@@ -25,5 +25,5 @@ array.each {|word|
 end
 
 def find_a(word)
-  word.starts_with?("a")? 
+  word.start_with?("a")? 
 end
